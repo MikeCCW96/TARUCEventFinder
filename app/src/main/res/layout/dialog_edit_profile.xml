@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:background="@drawable/dialogcorner">
+
+    <TextView
+        android:id="@+id/dialogTitle"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:textSize="20dp"
+        android:text="Edit Profile"
+        android:textAlignment="center"
+        android:layout_marginTop="15dp" />
+
+    <Button
+        android:id="@+id/btnCancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cancel"
+        android:layout_marginLeft="30dp"
+        android:textColor="@color/colorWhite"
+        android:background="@drawable/buttonred"
+        android:layout_below="@+id/btnConfirm"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="21dp"
+        android:layout_marginTop="19dp" />
+
+    <Button
+        android:id="@+id/btnConfirm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorWhite"
+        android:text="Confirm"
+        android:layout_marginLeft="30dp"
+        android:background="@drawable/button"
+        android:layout_below="@+id/txtAddressEdit"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dialogTitle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="23dp"
+        android:text="Name" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Contact"
+        android:layout_below="@+id/txtNameEdit"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="33dp"
+        android:text="Address"
+        android:layout_below="@+id/txtContactEdit"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:id="@+id/txtNameEdit"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="3dp"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:background="@drawable/edittextbar"
+        android:inputType="textPersonName"
+        android:text=""
+        android:layout_below="@+id/textView8"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:id="@+id/txtContactEdit"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittextbar"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_marginTop="3dp"
+        android:paddingBottom="8dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="8dp"
+        android:text=""
+        android:layout_below="@+id/textView9"
+        android:layout_alignStart="@+id/txtNameEdit" />
+
+    <EditText
+        android:id="@+id/txtAddressEdit"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittextbar"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_marginTop="3dp"
+        android:paddingBottom="8dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="8dp"
+        android:text=""
+        android:layout_below="@+id/textView11"
+        android:layout_alignStart="@+id/txtContactEdit" />
+
+
+</RelativeLayout>

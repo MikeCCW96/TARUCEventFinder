@@ -1,0 +1,119 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg2"
+    tools:context="com.example.mike.tarucevent.SettingsFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/btnSettings"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="93dp"
+                android:text="Settings"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/btnProfile"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_below="@+id/textView6"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="25dp"
+                android:layout_toEndOf="@+id/btnSettings"
+                android:background="@drawable/button"
+                android:text="Profile"
+                android:textColor="@color/colorWhite" />
+
+            <Button
+                android:id="@+id/btnSubscription"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_alignParentEnd="true"
+                android:layout_below="@+id/btnProfile"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/button"
+                android:text="Subscriptions"
+                android:textColor="@color/colorWhite" />
+
+
+            <Button
+                android:id="@+id/btnJoinedBefore"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_below="@+id/btnSubscription"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/button"
+                android:text="Joined Events"
+                android:textColor="@color/colorWhite" />
+
+            <Button
+                android:id="@+id/btnSSP"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_below="@+id/btnJoinedBefore"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/button"
+                android:text="Soft Skill Points"
+                android:textColor="@color/colorWhite" />
+
+            <Button
+                android:id="@+id/btnStatus"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_below="@+id/btnSSP"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/button"
+                android:text="Event Registration Status"
+                android:textColor="@color/colorWhite" />
+
+            <Button
+                android:id="@+id/btnReferral"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_below="@+id/btnStatus"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/button"
+                android:text="Referral"
+                android:textColor="@color/colorWhite" />
+
+            <Button
+                android:id="@+id/btnEarlyBird"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_below="@+id/btnReferral"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/button"
+                android:text="Early Bird Gifts"
+                android:textColor="@color/colorWhite" />
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

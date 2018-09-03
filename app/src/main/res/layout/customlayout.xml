@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/cards"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/button"/>
+
+
+
+    <TextView
+        android:id="@+id/textViewStartDate"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:paddingTop="9dp"
+
+        android:layout_alignLeft="@id/cards"
+        android:layout_alignRight="@id/cards"
+        android:textStyle="bold"
+        android:background="@drawable/cardstitle"
+        android:textColor="@color/colorWhite"
+        android:textAlignment="center"
+        android:layout_marginTop="10dp"
+        android:textSize="23dp"
+        android:text="TextView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+
+        android:id="@+id/textViewStartTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="9dp"
+        android:textColor="@color/colorWhite"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textSize="18dp"
+        android:layout_below="@+id/textViewStartDate"
+        android:layout_alignParentStart="true"
+        android:paddingBottom="15dp"/>
+
+    <TextView
+        android:id="@+id/textViewId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/textViewStartDate"
+        android:text="TextView"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/textViewTimeTableId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/textViewStartDate"
+        android:text="TextView"
+        android:visibility="gone"/>
+
+
+
+
+
+</RelativeLayout>
